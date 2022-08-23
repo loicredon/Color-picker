@@ -1,0 +1,44 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="picking">
+        <input type="color" id="color-pick">
+        <select name="colors" id="mode-pick">
+                <option value="monochrome">Monochrome</option>
+                <option value="monochrome-dark"> Monochrome-dark</option>
+                <option value="monochrome-light">Monochrome-light</option>
+                <option value="analogic">Analogic</option>
+                <option value="complement"> Complement</option>
+                <option value="analogic-complement">Analogic-complement</option>
+                <option value="triad">Triad</option>
+                <option value="quad"> Quad</option>
+            </select>
+            <button id="click-button">Get color scheme</button>
+        </div>
+        <div class="wrapper" id="color-scheme">
+            <div class="container">
+                <div class="col"></div>
+                <p class="hex"></p>
+            </div>
+            <div class="container">
+                <div class="col"></div>
+                <p class="hex"></p>
+            </div>
+              <div class="container">
+                <div class="col"></div>
+                <p class="hex"></p>
+            </div>
+              <div class="container">
+                <div class="col"></div>
+                <p class="hex"></p>
+            </div>
+              <div class="container">
+                <div class="col"></div>
+                <p class="hex"></p>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
