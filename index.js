@@ -28,6 +28,10 @@ button.addEventListener("click", function() {
     
     getColorScheme('000000', 'monochrome')
 
+    hexEl.forEach(copyHex => function(e) {
+        navigator.clipboard.writeText(e.target.textContent)
+    })
+
 
 // <img src=${data.colors[i].image.bare}>
 // <p>${data.colors[i].hex.value}</p>
